@@ -1,0 +1,13 @@
+### Cloud Load Balancingの概要
+- GCPの負荷分散サービス
+- トラフィックの分散を担当する
+- 特徴
+  - レイヤー
+    - HTTP(S)負荷分散 (layer 7: application層)
+    - ネットワーク負荷分散は (layer 4: transport層)
+  - 負荷分散箇所
+    - グローバル
+    - 内部
+  - リージョン
+    - 負荷分散の対象となるVMインスタンスは、同じリージョンにある必要がある
+- Cloud Loggingなどの機能もある
